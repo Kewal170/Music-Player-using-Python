@@ -13,11 +13,11 @@ pattern="*.mp3"
 
 mixer.init()
 
-prev_img=tk.PhotoImage(file='images/prev_img.png')
-stop_img=tk.PhotoImage(file='images/stop_img.png')
-pause_img=tk.PhotoImage(file='images/pause_img.png')
-play_img=tk.PhotoImage(file='images/play_img.png')
-next_img=tk.PhotoImage(file='images/next_img.png')
+prev_img=tk.PhotoImage(file='prev_img.png')
+stop_img=tk.PhotoImage(file='stop_img.png')
+pause_img=tk.PhotoImage(file='pause_img.png')
+play_img=tk.PhotoImage(file='play_img.png')
+next_img=tk.PhotoImage(file='next_img.png')
 
 def select():
     label.config(text=listbox.get('anchor'))
